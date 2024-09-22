@@ -4,7 +4,7 @@ import Layout from '../components/layout/layout';
 
 const HomePage=()=>{
     return (
-        <Layout>
+        <Layout title={'My App'}>
             <div className='Screen-Img'>
               <img src='Images/crausel1.jpg' alt='Main Screen'/>
             </div>

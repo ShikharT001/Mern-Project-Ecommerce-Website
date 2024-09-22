@@ -25,10 +25,15 @@
   border-bottom: 1px solid grey;
 }
 
-.nav-brand{
+.navbar-brand{
   font-family: 'Playfair Display',serif;
   font-weight:bold;
-  line-height: 3px;
+  line-height: 3;
+}
+.navbar-brand label{
+  position: relative;
+  top: 4px;
+  margin-left: 7px;
 }
 
 
@@ -84,19 +89,12 @@
   color:white;
 }
 
-/* ****Contact US  */
-.Contactusform{
-  margin-top:100px;
-  margin-left:100px;
-}
 
 /* ***Main Screen*** */
-.Screen-Img{
-  width: 100%;
-  height: 100vh;
-}
+
 .Screen-Img img{
   height:50vh;
   width: 100%;
   object-fit: cover;
 }
+  

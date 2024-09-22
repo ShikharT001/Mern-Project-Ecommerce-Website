@@ -5,14 +5,15 @@ import { FaPhone,FaBlenderPhone } from "react-icons/fa6";
 
 const Contact=()=>{
     return (
-        <Layout>
+        <Layout title={'Contact-MyApp'}>
             <div className='row contactus'>
-            <div className='col-md-6'>
+            <div className='col-md-6 d-flex justify-content-center align-items-center'>
                 <img src='Images/Contactus.jpg'
                 alt='Conatct Us'
-                style={{width:"100%"}}/>
+                style={{width:"100%",height:"70vh"}}/>
             </div>
-            <div className='col-md-4 Contactusform'>
+            <div className='col-md-6 d-flex justify-content-center align-items-center'>
+            <div className='col-md-8'>
                 <h2 className='bg-dark p-2 text-white text-center rounded'>Contact Us</h2>
                 <p className='text-justify mt-2'>Any Query Feel Free To Contact Us</p>
                 <p className='mt-3'>
@@ -25,6 +26,7 @@ const Contact=()=>{
                 <p className='mt-3'>
                     <FaBlenderPhone/> : 1800-0000-0000 (Toll Free)
                 </p>
+            </div>
             </div>
             </div>
         </Layout>
