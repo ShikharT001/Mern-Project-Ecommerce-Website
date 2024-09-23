@@ -12,8 +12,8 @@ const Contact=()=>{
                 alt='Conatct Us'
                 style={{width:"100%",height:"70vh"}}/>
             </div>
-            <div className='col-md-6 d-flex justify-content-center align-items-center'>
-            <div className='col-md-8'>
+            <div className='row col-md-4 d-flex justify-content-center align-items-center contactform'>
+            
                 <h2 className='bg-dark p-2 text-white text-center rounded'>Contact Us</h2>
                 <p className='text-justify mt-2'>Any Query Feel Free To Contact Us</p>
                 <p className='mt-3'>
@@ -26,7 +26,7 @@ const Contact=()=>{
                 <p className='mt-3'>
                     <FaBlenderPhone/> : 1800-0000-0000 (Toll Free)
                 </p>
-            </div>
+            
             </div>
             </div>
         </Layout>

@@ -1,0 +1,34 @@
+.content{
+  font-family: 'Playfair Display',serif;
+  line-height: 2;
+  font-size: 18px;
+  text-indent: 20px;
+}
+
+/* Homepage */
+.img-responsive{
+    height:50vh;
+    width: 100%;
+}
+
+/* About */
+.about{
+    height:100vh;
+}
+
+/* Contact */
+.contactus{
+    font-size: 20px;
+}
+
+.contactform{
+    margin-left: 0px;
+}
+
+/* Privacy policy */
+.privacy-policy{
+    font-family: 'Playfair Display',sans-serif;
+}
+.privacy-policy p{
+    font-family: 'Poppins',sans-serif;
+}
