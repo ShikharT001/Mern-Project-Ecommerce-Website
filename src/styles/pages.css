@@ -10,7 +10,25 @@
     height:50vh;
     width: 100%;
 }
+.banner{
+    height:200px;
+    width:95%;
+    margin: 0 auto;
+    background-color: rgb(4, 175, 4);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
 
+}
+.banner img{
+    width: 90%;
+    height: 140px;
+    margin: 0 auto;
+    object-fit: cover;
+    border-radius: 15px;
+}
 /* About */
 .about{
     height:100vh;
@@ -28,6 +46,9 @@
 /* Privacy policy */
 .privacy-policy{
     font-family: 'Playfair Display',sans-serif;
+    border:1px solid grey;
+    border-radius: 5px;   
+    background-color: #f3f3f3;
 }
 .privacy-policy p{
     font-family: 'Poppins',sans-serif;

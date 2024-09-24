@@ -4,7 +4,7 @@ import Layout from '../components/layout/layout';
 const Policy=()=>{
     return (
         <Layout title={'Policy-MyApp'}>
- <div className='m-5 privacy-policy'>
+ <div className='m-5 p-5 privacy-policy'>
   <h1 style={{textAlign:"center"}}>Privacy Policy</h1>
   <p>Last updated: September 23, 2024</p>
   <p>This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.</p>
