@@ -11,20 +11,19 @@
     width: 100%;
 }
 .banner{
-    height:200px;
-    width:95%;
+    height:55vh;
+    width:98%;
     margin: 0 auto;
-    background-color: rgb(4, 175, 4);
     border-radius: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5px;
+    /* margin-top: 5px; */
 
 }
 .banner img{
-    width: 90%;
-    height: 140px;
+    width: inherit;
+    height: 100%;
     margin: 0 auto;
     object-fit: cover;
     border-radius: 15px;

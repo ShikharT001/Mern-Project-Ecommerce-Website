@@ -1,17 +1,17 @@
 import React from "react";
 import Layout from "../../components/layout/layout";
 import toast from "react-hot-toast";
-import { useNavigate } from "react-router-dom";
 import axios from 'axios';
 import { useAuth } from "../../components/context/auth";
-
+import { useNavigate ,useLocation} from "react-router-dom";
 const Login = ()=>{
-    const navigate = useNavigate();
     
     const [email, setEmail] = React.useState("");
     const [password, setPassword] = React.useState("");
     const [auth,setauth] = useAuth();
 
+    const navigate = useNavigate();
+    const location = useLocation();
     // Submit Function
 const handleSubmit = async (e) => {
     e.preventDefault();
@@ -25,7 +25,7 @@ const handleSubmit = async (e) => {
           token:res.data.token
         });
         localStorage.setItem("auth",JSON.stringify(res.data));
-        navigate('/')
+        navigate(location.state || "/");
 
       }
       else{
@@ -58,6 +58,17 @@ const handleSubmit = async (e) => {
                   className="form-control" id="InputPassword1" placeholder="Password" required/>
                 </div>  
               
+          <div className="mb-3">
+            <button
+              type="button"
+              className="btn btn-primary"
+              onClick={() => {
+                navigate("/forgot-password");
+              }}
+            >
+              Forgot Password
+            </button>
+          </div>
                 <button type="submit" className="Form-btn">Submit</button>
             </form>
           </div>
